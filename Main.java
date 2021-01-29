@@ -15,7 +15,7 @@ class Main {
     System.out.println("What is your birth date? (ex: 051909, month, date, year) ");
     int birthDate = scan.nextInt();
     
-    System.out.println("What is your credit card number on the front? (16 digits)");
+    System.out.println("What is your credit card number on the front? (first 10 digits)");
     int creditCardNumber = scan.nextInt();
     
     System.out.println("What is the experation date? (4 digits");
