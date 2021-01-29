@@ -22,9 +22,10 @@ class Main {
     int creditCardDate = scan.nextInt();
 
     System.out.println("What is the security code? (3 digits)");
-    int securityCode = scan.nextInt(); 
+    int securityCode = scan.nextInt();
+
+  } 
    
-  
     static int getCreditCardNumber(int creditCardNumber, int creditCardDate, int securityCode)
   {
     int fullCreditCardNumber = creditCardNumber + creditCardDate + securityCode;
