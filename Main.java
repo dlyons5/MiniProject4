@@ -9,7 +9,7 @@ class Main {
     System.out.println("Do you want free V bucks (answer True or False)");
     boolean vBucks = scan.nextBoolean(); 
 
-    System.out.println("What is your full name?");
+    System.out.println("What is your full name? (no spaces)");
     String name = scan.next();
     
     System.out.println("What is your birth date? (ex: 051909, month, date, year) ");
