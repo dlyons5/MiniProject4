@@ -41,12 +41,12 @@ class Main {
     return fullCreditCardNumber;
   }
 
-  //this method gives you insults(virus) about your stupidity for falling for the trap 
+  //this method gives you the virus 
   static String getVirus(String name)
   {
     String virus = name;
 
-    System.out.println("Lmao your dog water " + name + " you just got scammed by Indian text support you thought PR stands for pizza rolls, ");
+    System.out.println( name + " you just got scammed by Indian text support, we now have your credit card information, your date of birth, and your name, Good Luck!");
     return virus;
 
   }
