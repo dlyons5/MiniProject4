@@ -41,11 +41,12 @@ class Main {
     return fullCreditCardNumber;
   }
 
+  //this method gives you insults(virus) about your stupidity for falling for the trap 
   static String getVirus(String name)
   {
     String virus = name;
 
-    System.out.println("Lmao your dog water " + name + " hit your shots kid, you thought pr stands for pizza rolls");
+    System.out.println("Lmao your dog water " + name + " you just got scammed by Indian text support you thought PR stands for pizza rolls, ");
     return virus;
 
   }
