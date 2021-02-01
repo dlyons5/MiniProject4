@@ -26,13 +26,13 @@ class Main {
 
     getCreditCardNumber(creditCardNumber, creditCardDate, securityCode);
 
-    for(int count = 1; count <= 5; count++)
+    for(int count = 1; count <= 10;count++)
      {
         System.out.println(getVirus(name));
      }
   } 
 
-    //method calculates your full credit card number
+  //method calculates your full credit card number
   static int getCreditCardNumber(int creditCardNumber, int creditCardDate, int securityCode)
   {
     int fullCreditCardNumber = creditCardNumber + creditCardDate + securityCode;
@@ -45,7 +45,7 @@ class Main {
   {
     String virus = name;
 
-    System.out.println("Lmao your dog water" + name + "hit your shots kid, you thought pr stands for pizza rolls");
+    System.out.println("Lmao your dog water " + name + " hit your shots kid, you thought pr stands for pizza rolls");
     return virus;
 
   }
