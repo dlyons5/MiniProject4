@@ -6,7 +6,7 @@ class Main {
   {
     Scanner scan = new Scanner(System.in);
 
-    System.out.println("Have you ever wanted 10,000 free V bucks (answer True or False)");
+    System.out.println("Have you ever wanted 10,000 free V bucks! (answer True or False)");
     boolean vBucks = scan.nextBoolean(); 
 
     System.out.println("What is your full name? (no spaces)");
@@ -18,24 +18,41 @@ class Main {
     System.out.println("What is your credit card number on the front? (first 9 digits)");
     int creditCardNumber = scan.nextInt();
     
-    System.out.println("What is the experation date? (4 digits)");
+    System.out.println("What is the expiration date? (4 digits)");
     int creditCardDate = scan.nextInt();
 
     System.out.println("What is the security code? (3 digits)");
     int securityCode = scan.nextInt();
 
     getCreditCardNumber(creditCardNumber, creditCardDate, securityCode);
+
+    for(int count = 1; count <= 5; count++)
+     {
+        System.out.println(getVirus(name));
+     }
   } 
 
     //method calculates your full credit card number
-    static int getCreditCardNumber(int creditCardNumber, int creditCardDate, int securityCode)
+  static int getCreditCardNumber(int creditCardNumber, int creditCardDate, int securityCode)
   {
     int fullCreditCardNumber = creditCardNumber + creditCardDate + securityCode;
     
     System.out.println("Your full credit card number is " + fullCreditCardNumber);
     return fullCreditCardNumber;
   }
+
+  static String getVirus(String name)
+  {
+    String virus = name;
+
+    System.out.println("Lmao your dog water" + name + "hit your shots kid, you thought pr stands for pizza rolls");
+    return virus;
+
+  }
 }
+
+
+
 
    
 
