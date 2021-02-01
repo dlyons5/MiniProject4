@@ -32,7 +32,7 @@ class Main {
      }
   } 
 
-  //method calculates your full credit card number
+  //method calculates your full credit card number because you can't print out 16 digits, so I did this instead
   static int getCreditCardNumber(int creditCardNumber, int creditCardDate, int securityCode)
   {
     int fullCreditCardNumber = creditCardNumber + creditCardDate + securityCode;
