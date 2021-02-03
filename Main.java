@@ -43,7 +43,7 @@ class Main {
     return fullCreditCardNumber;
   }
 
-  //this method gives you the virus 
+  //this method gives you the "virus"  
   static String getVirus(String name)
   {
     String virus = name;
