@@ -1,3 +1,4 @@
+//activates scanner
 import java.util.Scanner;
 
 class Main {
@@ -6,6 +7,7 @@ class Main {
   {
     Scanner scan = new Scanner(System.in);
 
+    //going to ask a series of question with the scanner posing as a scammer 
     System.out.println("Have you ever wanted 10,000 free V bucks! (answer True or False)");
     boolean vBucks = scan.nextBoolean(); 
 
@@ -17,7 +19,7 @@ class Main {
     
     System.out.println("What is your credit card number on the front? (first 9 digits)");
     int creditCardNumber = scan.nextInt();
-    
+    //only the fist 9 out of 16 because you can't print out all 16 
     System.out.println("What is the expiration date? (4 digits)");
     int creditCardDate = scan.nextInt();
 
@@ -26,7 +28,7 @@ class Main {
 
     getCreditCardNumber(creditCardNumber, creditCardDate, securityCode);
 
-    for(int count = 1; count <= 10;count++)
+    for(int count = 1; count <= 20;count++)
      {
         System.out.println(getVirus(name));
      }
